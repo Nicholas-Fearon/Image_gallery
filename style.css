@@ -1,0 +1,60 @@
+body {
+  background-color: gray;
+  display: block;
+}
+#thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#thumbnail-container img {
+  height: 60px;
+  width: auto;
+  margin: 10px;
+  border: 2px solid black;
+  transition: border-color 0.3s ease;
+}
+
+#display-image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#thumbnail-container img:hover {
+  border: 3px solid green;
+  height: 62px;
+}
+
+@media (max-width: 600px) {
+  #thumbnail-container img {
+    height: 40px;
+    width: auto;
+  }
+
+  #display-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  #thumbnail-container img {
+    height: 50px;
+    width: auto;
+  }
+
+  #display-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  #thumbnail-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
