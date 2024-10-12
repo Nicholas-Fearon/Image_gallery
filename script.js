@@ -2,7 +2,7 @@
 const thumbnailContainer = document.getElementById("thumbnail-container");
 const displayImage = document.getElementById("display-image");
 
-displayImage.src = "./assets/wolf-low.jpg";
+displayImage.src = "./assets/wolf-high.jpg";
 displayImage.alt = "./assets/Howling Wolf";
 
 // a variable that represents the current possition in the array
@@ -11,8 +11,8 @@ let imgIndex = 0;
 // an array of asset images and information about them
 const images = [
   {
-    src: "./assets/wolf-low.jpg",
-    srcset: "./assets/wolf-med.jpg 2x, ./assets/wolf-high.jpg 3x",
+    src: "./assets/wolf-high.jpg",
+    srcset: "./assets/wolf-low.jpg 2x, ./assets/wolf-med.jpg 3x",
     alt: "Howling Wolf",
     aria: {
       label: "Wolf howling at the moon",
@@ -20,8 +20,8 @@ const images = [
     },
   },
   {
-    src: "./assets/moon-low.jpg",
-    srcset: "./assets/moon-med.jpg 2x, ./assets/moon-high.jpg 3x",
+    src: "./assets/moon-high.jpg",
+    srcset: "./assets/moon-low.jpg 2x, ./assets/moon-med.jpg 3x",
     alt: "Moon and hoop",
     aria: {
       label: "Moon with a basketball hoop",
@@ -29,8 +29,8 @@ const images = [
     },
   },
   {
-    src: "./assets/camping-low.jpg",
-    srcset: "./assets/camping-med.jpg 2x, ./assets/camping-high.jpg 3x",
+    src: "./assets/camping-high.jpg",
+    srcset: "./assets/camping-low.jpg 2x, ./assets/camping-med.jpg 3x",
     alt: "Camping van and moon",
     aria: {
       label: "A camper van under the moonlight",
@@ -38,8 +38,8 @@ const images = [
     },
   },
   {
-    src: "./assets/deer-low.jpg",
-    srcset: "./assets/deer-med.jpg 2x, ./assets/deer-high.jpg 3x",
+    src: "./assets/deer-high.jpg",
+    srcset: "./assets/deer-low.jpg 2x, ./assets/deer-med.jpg 3x",
     alt: "Deer at night",
     aria: {
       label: "Deer standing under the night sky",
@@ -47,8 +47,8 @@ const images = [
     },
   },
   {
-    src: "./assets/dragon-low.jpg",
-    srcset: "./assets/dragon-med.jpg 2x, ./assets/dragon-high.jpg 3x",
+    src: "./assets/dragon-high.jpg",
+    srcset: "./assets/dragon-low.jpg 2x, ./assets/dragon-med.jpg 3x",
     alt: "Flying dragon",
     aria: {
       label: "A dragon flying in the sky",
@@ -56,8 +56,8 @@ const images = [
     },
   },
   {
-    src: "./assets/jellyfishes-low.jpg",
-    srcset: "./assets/jellyfishes-med.jpg 2x, ./assets/jellyfishes-high.jpg 3x",
+    src: "./assets/jellyfishes-high.jpg",
+    srcset: "./assets/jellyfishes-low.jpg 2x, ./assets/jellyfishes-med.jpg 3x",
     alt: "Three Jellyfish",
     aria: {
       label: "Three jellyfish swimming in the ocean",
