@@ -2,7 +2,7 @@
 const thumbnailContainer = document.getElementById("thumbnail-container");
 const displayImage = document.getElementById("display-image");
 
-displayImage.src = "./assets/wolf-high.jpg";
+displayImage.src = "./assets/wolf-med.jpg";
 displayImage.alt = "./assets/Howling Wolf";
 
 // a variable that represents the current possition in the array
