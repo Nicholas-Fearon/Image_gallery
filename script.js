@@ -11,7 +11,7 @@ let imgIndex = 0;
 // an array of asset images and information about them
 const images = [
   {
-    src: "./assets/wolf-low.jpg",
+    src: "assets/wolf-low.jpg",
     srcset: "./wolf-med.jpg 2x, ./assets/wolf-high.jpg 3x",
     alt: "Howling Wolf",
     aria: {
