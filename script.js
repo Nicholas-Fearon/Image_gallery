@@ -12,7 +12,7 @@ let imgIndex = 0;
 const images = [
   {
     src: "./assets/wolf-low.jpg",
-    srcset: "./assets/wolf-med.jpg 2x, ./assets/wolf-high.jpg 3x",
+    srcset: "./wolf-med.jpg 2x, ./assets/wolf-high.jpg 3x",
     alt: "Howling Wolf",
     aria: {
       label: "Wolf howling at the moon",
